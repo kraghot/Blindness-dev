@@ -1,0 +1,855 @@
+﻿Log file open, 02/22/15 15:05:14
+LogInit:Display: Running engine for game: Blindness
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.22-14.05.14:888][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.22-14.05.14:943][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.22-14.05.14:967][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.22-14.05.14:980][  0]LogInit: Object subsystem initialized
+[2015.02.22-14.05.14:982][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.22-14.05.14:982][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.22-14.05.14:982][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.22-14.05.14:982][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.22-14.05.14:983][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.22-14.05.14:983][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.22-14.05.14:983][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.22-14.05.14:989][  0]LogInit: Computer: LETO
+[2015.02.22-14.05.14:989][  0]LogInit: User: Edi
+[2015.02.22-14.05.14:989][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.22-14.05.14:989][  0]LogInit: High frequency timer resolution =2.571681 MHz
+[2015.02.22-14.05.14:989][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=131072.0GB
+[2015.02.22-14.05.14:989][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.22-14.05.14:989][  0]LogMemory: Process Physical Memory: 48.97 MB used, 48.97 MB peak
+[2015.02.22-14.05.14:989][  0]LogMemory: Process Virtual Memory: 24.21 MB used, 24.21 MB peak
+[2015.02.22-14.05.14:990][  0]LogMemory: Physical Memory: 3312.41 MB used, 12279.11 MB total
+[2015.02.22-14.05.14:990][  0]LogMemory: Virtual Memory: 273.70 MB used, 134217728.00 MB total
+[2015.02.22-14.05.15:003][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 5800 Series (Feature Level 11_0)
+[2015.02.22-14.05.15:003][  0]LogD3D11RHI: Adapter has 1010MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.02.22-14.05.15:004][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.22-14.05.15:004][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.22-14.05.15:004][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.22-14.05.15:008][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2015.02.22-14.05.15:014][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.02.22-14.05.15:068][  0]LogTextLocalizationManager: The requested culture ('hr_HR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.22-14.05.15:296][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.22-14.05.23:340][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-14.05.23:934][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-14.05.24:004][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.22-14.05.24:055][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.22-14.05.24:055][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.22-14.05.24:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.22-14.05.24:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.22-14.05.24:147][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.22-14.05.24:159][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Edi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.22-14.05.24:335][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.22-14.05.24:537][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.22-14.05.24:537][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.22-14.05.24:994][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.22-14.05.25:068][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.22-14.05.26:114][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.22-14.05.26:307][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Binaries/Win64. Error: 0
+[2015.02.22-14.05.26:499][  0]SourceControl: Info Source control is disabled
+[2015.02.22-14.05.26:499][  0]SourceControl: Info Source control is disabled
+[2015.02.22-14.05.26:508][  0]SourceControl: Info Source control is disabled
+[2015.02.22-14.05.26:659][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.22-14.05.26:659][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.02.22-14.05.26:734][  0]LogEngine: Initializing Engine...
+[2015.02.22-14.05.26:932][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.22-14.05.26:940][  0]LogInit: FAudioDevice initialized.
+[2015.02.22-14.05.26:965][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.22-14.05.26:989][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.22-14.05.26:997][  0]LogInit: Texture streaming: Enabled
+[2015.02.22-14.05.27:032][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.22-14.05.27:032][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.22-14.05.27:033][  0]LogAnalytics: SetUserId 88699552893175d1deffbf43a256080f
+[2015.02.22-14.05.27:033][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.22-14.05.27:053][  0]LogInit: Transaction tracking system initialized
+[2015.02.22-14.05.27:171][  0]BlueprintLog: New page: Editor Load
+[2015.02.22-14.05.27:206][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.02.22-14.05.27:206][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.22-14.05.27:844][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-14.05.28:330][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-14.05.28:556][  0]LogConsoleResponse:Display: 
+[2015.02.22-14.05.28:617][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.22-14.05.28:864][  0]SourceControl: Info Source control is disabled
+[2015.02.22-14.05.39:692][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.22-14.05.39:693][  0]LightingResults: New page: Lighting Build
+[2015.02.22-14.05.39:706][  0]MapCheck: New page: Map Check
+[2015.02.22-14.05.39:706][  0]LightingResults: New page: Lighting Build
+[2015.02.22-14.05.39:717][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000583CAA3E20
+[2015.02.22-14.05.39:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.22-14.05.39:934][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.05.39:934][  0]Cmd: MAP CHECKDEP
+[2015.02.22-14.05.39:934][  0]MapCheck: New page: Example_Map - Feb 22, 2015, 4:05:39 PM
+[2015.02.22-14.05.40:069][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.011ms to complete.
+[2015.02.22-14.05.40:070][  0]LogFileHelpers: Loading map 'Example_Map' took 0.377
+[2015.02.22-14.05.40:132][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_13b0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_65c_0///////STATCAT_Advanced////
+[2015.02.22-14.05.40:132][  0]LogCollectionManager: Loaded 0 collections in 0.001268 seconds
+[2015.02.22-14.05.40:269][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.22-14.05.40:276][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.22-14.05.40:305][  0]LogLoad: Full Startup: 27.70 seconds (BP compile: 0.05 seconds)
+[2015.02.22-14.05.40:318][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.05.40:513][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1264.
+[2015.02.22-14.05.41:003][  4]LogAssetRegistry: Asset discovery search completed in 13.8082 seconds
+[2015.02.22-14.06.27:134][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.02.22-14.06.29:221][613]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/Machine_sound-Marianne_Gagnon-88253407.aac
+[2015.02.22-14.06.35:944][656]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/Machine_sound-Marianne_Gagnon-88253407.wav)
+[2015.02.22-14.06.35:947][656]LogAudioDerivedData:Display: Building compressed audio format OGG wave Machine_sound-Marianne_Gagnon-88253407...
+[2015.02.22-14.06.36:084][656]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Machine_sound-Marianne_Gagnon-88253407.Machine_sound-Marianne_Gagnon-88253407.
+[2015.02.22-14.06.36:091][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.22-14.06.36:091][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.02.22-14.06.37:850][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-14.06.37:923][696]LogSavePackage: Save=44.591068ms
+[2015.02.22-14.06.37:923][696]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_MapEB5808DB4F8914D2F3E6518EC9272BFF.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap'
+[2015.02.22-14.07.00:235][300]BlueprintLog: New page: Compile Rotator
+[2015.02.22-14.07.00:325][300]BlueprintEditorCompileResults: Info [0107.72] Compile of Rotator successful! [in 86 ms]
+[2015.02.22-14.07.02:701][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-14.07.02:705][357]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.22-14.07.02:770][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058473EF600
+[2015.02.22-14.07.02:772][357]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2015.02.22-14.07.02:772][357]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:07:02 PM)
+[2015.02.22-14.07.02:779][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006040s)
+[2015.02.22-14.07.02:780][357]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2015.02.22-14.07.02:780][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.006952s)
+[2015.02.22-14.07.03:100][357]LogLinker:Warning: Asset '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.22-14.07.03:428][357]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.02.22-14.07.03:462][357]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2015.02.22-14.07.03:464][357]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.02.22-14.07.03:536][357]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.07.03:539][357]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.07.03:542][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.07.03
+[2015.02.22-14.07.03:543][357]LogWorld: Bringing up level for play took: 0.004326
+[2015.02.22-14.07.03:546][357]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.416
+[2015.02.22-14.07.43:768][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005840E0A200
+[2015.02.22-14.07.47:931][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.22-14.07.48:650][499]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.10.35:825][  3]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.02.22-14.10.46:432][219]LogSavePackage: Save=19.077793ms
+[2015.02.22-14.10.46:432][219]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Machine_sound-Marianne_Gagnon-88253407D8FE6F7543F8B813FCA6FBB97039A566.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/Machine_sound-Marianne_Gagnon-88253407.uasset'
+[2015.02.22-14.10.48:027][254]LogSavePackage: Save=3.678139ms
+[2015.02.22-14.10.48:027][254]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Machine_sound-Marianne_Gagnon-882534070FB8D8DB42D7D6368DAAE2B0871FEFCC.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/Machine_sound-Marianne_Gagnon-88253407.uasset'
+[2015.02.22-14.14.51:489][699]BlueprintLog: New page: Compile Rotator
+[2015.02.22-14.14.51:584][699]BlueprintEditorCompileResults: Info [0578.98] Compile of Rotator successful! [in 92 ms]
+[2015.02.22-14.14.52:049][711]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.22-14.14.52:050][711]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.14.52:924][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Rotator" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/Rotator.uasset" SILENT=true
+[2015.02.22-14.14.53:225][729]LogSavePackage: Save=291.458008ms
+[2015.02.22-14.14.53:225][729]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/RotatorFB3151CE481AB359A4A1EA886E13E5AA.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/Rotator.uasset'
+[2015.02.22-14.14.55:722][787]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.14.55:723][787]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:14:55 PM)
+[2015.02.22-14.14.55:729][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005868s)
+[2015.02.22-14.14.55:729][787]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2015.02.22-14.14.55:730][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.006751s)
+[2015.02.22-14.14.55:764][787]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.14.55:766][787]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.14.55:770][787]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.14.55
+[2015.02.22-14.14.55:771][787]LogWorld: Bringing up level for play took: 0.004312
+[2015.02.22-14.14.55:773][787]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.642
+[2015.02.22-14.15.24:325][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000583E0C79C0
+[2015.02.22-14.15.24:330][558]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.15.34:431][781]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.02.22-14.16.04:003][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/NewSoundAttenuation" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/NewSoundAttenuation.uasset" SILENT=true
+[2015.02.22-14.16.04:016][664]LogSavePackage: Save=2.976263ms
+[2015.02.22-14.16.04:016][664]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/NewSoundAttenuationFCC0CFBF4698799704A003BC0FC7478E.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/NewSoundAttenuation.uasset'
+[2015.02.22-14.16.06:474][727]LogSavePackage: Save=19.461590ms
+[2015.02.22-14.16.06:474][727]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Machine_sound-Marianne_Gagnon-88253407EDF7422D49D41415CB98BFA8BE4F5C04.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Audio/Machine_sound-Marianne_Gagnon-88253407.uasset'
+[2015.02.22-14.16.07:893][765]BlueprintLog: New page: Compile Rotator
+[2015.02.22-14.16.08:013][765]BlueprintEditorCompileResults: Info [0655.41] Compile of Rotator successful! [in 116 ms]
+[2015.02.22-14.16.10:504][829]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.16.10:504][829]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:16:10 PM)
+[2015.02.22-14.16.10:510][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005929s)
+[2015.02.22-14.16.10:511][829]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2015.02.22-14.16.10:511][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.006814s)
+[2015.02.22-14.16.10:545][829]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.16.10:547][829]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.16.10:551][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.16.10
+[2015.02.22-14.16.10:552][829]LogWorld: Bringing up level for play took: 0.004233
+[2015.02.22-14.16.10:554][829]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.577
+[2015.02.22-14.16.13:687][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005835CD84A0
+[2015.02.22-14.16.13:693][913]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.16.17:393][978]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.16.17:394][978]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:16:17 PM)
+[2015.02.22-14.16.17:400][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005916s)
+[2015.02.22-14.16.17:401][978]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2015.02.22-14.16.17:401][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.006793s)
+[2015.02.22-14.16.17:430][978]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.16.17:432][978]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.16.17:436][978]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.16.17
+[2015.02.22-14.16.17:437][978]LogWorld: Bringing up level for play took: 0.004176
+[2015.02.22-14.16.17:439][978]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.307
+[2015.02.22-14.16.37:761][506]LogCharacterMovement: MyCharacter_C_3 is stuck and failed to move!
+[2015.02.22-14.16.42:913][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000584BFD3380
+[2015.02.22-14.16.42:913][628]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.18.17:067][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005845976FC0
+[2015.02.22-14.18.17:152][989]LogSavePackage: Save=41.526146ms
+[2015.02.22-14.18.17:152][989]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_Map_Auto1710413D5497B48A7C9F417998D456F50.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.02.22-14.18.17:161][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.131
+[2015.02.22-14.18.17:161][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
+[2015.02.22-14.20.25:782][500]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.22-14.20.26:147][525]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.20.35:912][564]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.fbx)
+[2015.02.22-14.20.35:917][564]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.02.22-14.20.35:917][564]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.02.22-14.20.35:917][564]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.02.22-14.20.35:917][564]LogFbx: ItemName: Model, ItemCount : 3
+[2015.02.22-14.20.35:917][564]LogFbx: ItemName: Material, ItemCount : 1
+[2015.02.22-14.20.41:903][564]LogFbx: Loading FBX Scene from ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.fbx
+[2015.02.22-14.20.41:918][564]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.22-14.20.41:924][564]LogLinker:Warning: Can't find file '/Game/Meshes/Material_001'
+[2015.02.22-14.20.41:924][564]LogLinker:Warning: Can't find file '/Game/Meshes/Material_001'
+[2015.02.22-14.20.41:924][564]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Material_001.Material_001'
+[2015.02.22-14.20.41:934][564]LogMaterial: Missing cached shader map for material Material_001, compiling.
+[2015.02.22-14.20.41:981][564]LogFbx:Warning: Triangulating static mesh BezierCircle
+[2015.02.22-14.20.43:121][564]LogFbx: == Initial material list:
+[2015.02.22-14.20.43:121][564]LogFbx: 0: Material.001
+[2015.02.22-14.20.43:121][564]LogFbx: == After sorting:
+[2015.02.22-14.20.43:121][564]LogFbx: 0: Material.001
+[2015.02.22-14.20.43:121][564]LogFbx: == Mapping table:
+[2015.02.22-14.20.43:121][564]LogFbx:   sort 0 -> 0
+[2015.02.22-14.20.43:125][564]LogStaticMesh: Building static mesh ring2...
+[2015.02.22-14.20.43:155][564]LogLayoutUV:Display: FindCharts: 4 ms
+[2015.02.22-14.20.43:162][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:162][564]LogLayoutUV:Display:   Rasterize: 17367
+[2015.02.22-14.20.43:162][564]LogLayoutUV:Display:   Find: 8
+[2015.02.22-14.20.43:169][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:169][564]LogLayoutUV:Display:   Rasterize: 17293
+[2015.02.22-14.20.43:169][564]LogLayoutUV:Display:   Find: 8
+[2015.02.22-14.20.43:175][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:175][564]LogLayoutUV:Display:   Rasterize: 17348
+[2015.02.22-14.20.43:175][564]LogLayoutUV:Display:   Find: 7
+[2015.02.22-14.20.43:182][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:182][564]LogLayoutUV:Display:   Rasterize: 17749
+[2015.02.22-14.20.43:182][564]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.20.43:189][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:189][564]LogLayoutUV:Display:   Rasterize: 17303
+[2015.02.22-14.20.43:189][564]LogLayoutUV:Display:   Find: 6
+[2015.02.22-14.20.43:196][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:196][564]LogLayoutUV:Display:   Rasterize: 17774
+[2015.02.22-14.20.43:196][564]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.20.43:203][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:203][564]LogLayoutUV:Display:   Rasterize: 17264
+[2015.02.22-14.20.43:203][564]LogLayoutUV:Display:   Find: 6
+[2015.02.22-14.20.43:210][564]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.20.43:210][564]LogLayoutUV:Display:   Rasterize: 17160
+[2015.02.22-14.20.43:210][564]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.20.43:296][564]LogStaticMesh: Built static mesh [171.485504ms] /Game/Meshes/ring2.ring2
+[2015.02.22-14.20.43:363][564]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.02.22-14.20.43:409][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.22-14.20.43:410][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.20.46:264][620]LogActorFactory: Actor Factory created ring2
+[2015.02.22-14.20.47:428][645]LogActorFactory: Actor Factory created ring2
+[2015.02.22-14.20.47:442][645]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-14.20.47:477][645]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-14.21.14:213][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.21.14:213][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.21.14:213][400]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.21.14:226][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.21.14:226][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.21.14:226][400]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.21.14:240][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.21.14:240][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.21.14:240][400]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.21.14:253][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.21.14:253][400]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.21.14:253][400]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.21.14:282][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.14:282][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.14:282][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.14:283][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.21:352][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ring2" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.uasset" SILENT=true
+[2015.02.22-14.21.21:763][548]LogSavePackage: Save=409.225708ms
+[2015.02.22-14.21.21:763][548]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/ring2F2BD93C64A619EB83E2E9C893FCE3C60.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.uasset'
+[2015.02.22-14.21.23:208][581]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.21.23:209][581]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:21:23 PM)
+[2015.02.22-14.21.23:215][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006253s)
+[2015.02.22-14.21.23:217][581]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2015.02.22-14.21.23:217][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.008084s)
+[2015.02.22-14.21.23:248][581]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.21.23:250][581]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.21.23:254][581]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.23:254][581]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.23:254][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.21.23
+[2015.02.22-14.21.23:255][581]LogWorld: Bringing up level for play took: 0.004281
+[2015.02.22-14.21.23:257][581]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.126
+[2015.02.22-14.21.25:747][648]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.25:783][649]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.25:819][650]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.25:855][651]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.25:891][652]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.25:925][653]LogCharacterMovement: MyCharacter_C_4 is stuck and failed to move!
+[2015.02.22-14.21.41:601][ 93]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-14.21.41:643][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000584ECEA660
+[2015.02.22-14.21.41:644][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005845BB7A60
+[2015.02.22-14.21.41:648][ 93]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.21.48:736][407]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.21.48:736][407]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:21:48 PM)
+[2015.02.22-14.21.48:742][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006134s)
+[2015.02.22-14.21.48:743][407]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2015.02.22-14.21.48:743][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.007037s)
+[2015.02.22-14.21.48:778][407]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.21.48:780][407]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.21.48:784][407]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.48:784][407]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_13)
+[2015.02.22-14.21.48:784][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.21.48
+[2015.02.22-14.21.48:785][407]LogWorld: Bringing up level for play took: 0.004297
+[2015.02.22-14.21.48:787][407]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.345
+[2015.02.22-14.21.50:461][452]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.ring2_4"
+[2015.02.22-14.21.51:300][466]LogEditorViewport: Clicking Background
+[2015.02.22-14.22.00:382][602]Cmd: SELECT NONE
+[2015.02.22-14.22.01:202][621]Cmd: SELECT NONE
+[2015.02.22-14.22.03:286][699]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-14.22.03:333][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000584E374FE0
+[2015.02.22-14.22.03:333][699]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.28.50:550][ 60]LogSavePackage: Save=44.582901ms
+[2015.02.22-14.28.50:550][ 60]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_Map_Auto20A62F56E4A283C51D6E4E097F19637FD.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2015.02.22-14.28.50:560][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.135
+[2015.02.22-14.28.50:560][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.135
+[2015.02.22-14.28.50:573][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Material_001] ([1] browsable assets)...
+[2015.02.22-14.28.50:603][ 60]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Material_001.Material_001]
+[2015.02.22-14.28.50:603][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Material_001]
+[2015.02.22-14.28.51:260][ 60]LogSavePackage: Save=650.886353ms
+[2015.02.22-14.28.51:260][ 60]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Material_001_Auto2F2AF7CB04646BA44A332DEBEC9DB3EF7.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Meshes/Material_001_Auto2.uasset'
+[2015.02.22-14.28.51:264][ 60]LogFileHelpers: Auto-saving content packages took 0.703
+[2015.02.22-14.30.29:926][367]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.fbx)
+[2015.02.22-14.30.29:929][367]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.02.22-14.30.29:929][367]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.02.22-14.30.29:929][367]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.02.22-14.30.29:929][367]LogFbx: ItemName: Model, ItemCount : 4
+[2015.02.22-14.30.29:929][367]LogFbx: ItemName: Material, ItemCount : 1
+[2015.02.22-14.30.34:550][367]LogFbx: Loading FBX Scene from ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.fbx
+[2015.02.22-14.30.34:566][367]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.22-14.30.34:574][367]LogLinker:Warning: Can't find file '/Game/Meshes/Material_001'
+[2015.02.22-14.30.34:574][367]LogLinker:Warning: Can't find file '/Game/Meshes/Material_001'
+[2015.02.22-14.30.34:574][367]LogFbx:Warning: Triangulating static mesh ring2
+[2015.02.22-14.30.35:732][367]LogFbx: == Initial material list:
+[2015.02.22-14.30.35:732][367]LogFbx: 0: Material.001
+[2015.02.22-14.30.35:732][367]LogFbx: == After sorting:
+[2015.02.22-14.30.35:732][367]LogFbx: 0: Material.001
+[2015.02.22-14.30.35:732][367]LogFbx: == Mapping table:
+[2015.02.22-14.30.35:732][367]LogFbx:   sort 0 -> 0
+[2015.02.22-14.30.35:738][367]LogStaticMesh: Building static mesh ring2...
+[2015.02.22-14.30.35:768][367]LogLayoutUV:Display: FindCharts: 5 ms
+[2015.02.22-14.30.35:779][367]LogLayoutUV:Display: PackCharts: 10 ms
+[2015.02.22-14.30.35:779][367]LogLayoutUV:Display:   Rasterize: 27504
+[2015.02.22-14.30.35:779][367]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.30.35:786][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:786][367]LogLayoutUV:Display:   Rasterize: 17346
+[2015.02.22-14.30.35:786][367]LogLayoutUV:Display:   Find: 8
+[2015.02.22-14.30.35:793][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:793][367]LogLayoutUV:Display:   Rasterize: 17654
+[2015.02.22-14.30.35:793][367]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.30.35:800][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:800][367]LogLayoutUV:Display:   Rasterize: 17808
+[2015.02.22-14.30.35:800][367]LogLayoutUV:Display:   Find: 7
+[2015.02.22-14.30.35:807][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:807][367]LogLayoutUV:Display:   Rasterize: 17140
+[2015.02.22-14.30.35:807][367]LogLayoutUV:Display:   Find: 6
+[2015.02.22-14.30.35:813][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:813][367]LogLayoutUV:Display:   Rasterize: 17071
+[2015.02.22-14.30.35:813][367]LogLayoutUV:Display:   Find: 8
+[2015.02.22-14.30.35:820][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:820][367]LogLayoutUV:Display:   Rasterize: 17518
+[2015.02.22-14.30.35:820][367]LogLayoutUV:Display:   Find: 9
+[2015.02.22-14.30.35:827][367]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.02.22-14.30.35:827][367]LogLayoutUV:Display:   Rasterize: 17084
+[2015.02.22-14.30.35:827][367]LogLayoutUV:Display:   Find: 6
+[2015.02.22-14.30.35:917][367]LogStaticMesh: Built static mesh [179.302567ms] /Game/Meshes/ring2.ring2
+[2015.02.22-14.30.35:980][367]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.02.22-14.30.36:026][367]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.22-14.30.36:027][367]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.22-14.30.44:640][552]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.22-14.30.44:640][552]PIE: New page: PIE session: Example_Map (Feb 22, 2015, 4:30:44 PM)
+[2015.02.22-14.30.44:647][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006077s)
+[2015.02.22-14.30.44:648][552]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2015.02.22-14.30.44:648][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.007109s)
+[2015.02.22-14.30.44:695][552]LogWorld: Game class is 'MyGame_C'
+[2015.02.22-14.30.44:697][552]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.22-14.30.44:701][552]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.22-15.30.44
+[2015.02.22-14.30.44:702][552]LogWorld: Bringing up level for play took: 0.004244
+[2015.02.22-14.30.44:704][552]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.427
+[2015.02.22-14.30.53:481][790]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.22-14.30.53:524][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005839030400
+[2015.02.22-14.30.53:528][790]LogActorComponent: ReregisterComponent: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Rotator_C_1.TRASH_AudioComponent_37) Not currently registered. Aborting.
+[2015.02.22-14.33.02:979][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.02:979][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.02:979][619]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.02:992][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.02:992][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.02:992][619]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.03:006][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.03:006][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.03:006][619]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.03:020][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.03:020][619]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.03:020][619]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.03:049][619]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.03:049][619]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.03:049][619]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.03:049][619]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.31:383][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.31:383][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.31:383][435]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.31:396][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.31:396][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.31:396][435]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.31:409][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.31:409][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.31:409][435]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.31:422][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.31:422][435]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.31:422][435]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 3 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.31:451][435]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.31:451][435]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.31:451][435]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.31:451][435]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.38:961][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.38:961][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.38:961][596]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.38:974][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.38:974][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.38:974][596]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 2 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.38:979][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.38:979][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.38:980][596]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.38:993][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.38:993][596]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.38:993][596]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 2 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.39:021][596]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.39:021][596]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (2: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.39:021][596]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.39:022][596]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (2: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.40:382][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.40:382][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.40:382][625]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.40:388][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.40:388][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.40:388][625]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.40:394][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.40:394][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.40:394][625]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.40:400][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.40:400][625]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.40:400][625]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.40:428][625]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.40:428][625]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.40:428][625]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.40:428][625]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.44:968][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.44:968][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.44:968][798]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.44:974][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.44:974][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.44:974][798]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.44:980][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.44:980][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.44:980][798]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.44:986][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.44:986][798]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.44:986][798]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.45:016][798]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.45:016][798]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.45:016][798]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.45:016][798]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.55:581][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.55:581][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.55:581][ 16]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.55:586][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.55:586][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.55:586][ 16]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.55:592][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.55:592][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.55:592][ 16]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.55:598][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.55:598][ 16]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.55:598][ 16]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.55:626][ 16]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.55:626][ 16]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.55:626][ 16]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.55:626][ 16]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.58:099][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.58:099][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.58:099][104]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.58:105][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.58:105][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.58:105][104]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.33.58:110][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.58:111][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.58:111][104]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.58:116][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.33.58:116][104]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.33.58:116][104]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.33.58:145][104]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.58:145][104]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.58:145][104]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.33.58:145][104]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.00:943][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.00:943][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.00:943][159]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.00:949][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.00:949][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.00:949][159]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.00:954][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.00:954][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.00:954][159]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.00:960][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.00:960][159]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.00:960][159]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.00:989][159]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.00:989][159]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.00:989][159]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.00:989][159]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.03:598][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.03:598][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.03:598][251]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.03:604][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.03:604][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.03:604][251]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.03:609][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.03:609][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.03:609][251]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.03:615][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.03:615][251]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.03:615][251]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.03:644][251]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.03:644][251]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.03:644][251]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.03:644][251]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.44:343][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.44:343][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.44:343][106]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.44:348][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.44:348][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.44:348][106]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.34.44:354][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.44:354][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.44:354][106]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.44:360][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.34.44:360][106]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.34.44:360][106]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.34.44:389][106]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.44:389][106]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.44:389][106]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.34.44:389][106]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.35.55:073][268]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.35.55:073][268]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.35.57:309][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.35.57:309][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.35.58:701][345]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.35.58:701][345]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.35.59:421][360]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.35.59:422][360]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.36.02:262][446]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.36.02:262][446]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.36.03:616][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000583E3F2DE0
+[2015.02.22-14.36.07:298][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.36.07:298][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.36.07:308][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.36.07:308][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.36.07:312][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.22-14.36.07:312][504]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.22-14.36.19:938][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.19:938][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.19:938][789]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.19:943][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.19:943][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.19:943][789]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.19:950][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.19:950][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.19:950][789]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.19:956][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.19:956][789]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.19:956][789]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.29:023][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.29:023][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.29:023][ 32]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.29:028][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.29:029][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.29:029][ 32]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.29:035][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.29:035][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.29:035][ 32]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.29:041][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.29:041][ 32]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.29:041][ 32]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.32:386][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.32:387][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.32:387][125]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.32:392][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.32:392][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.32:392][125]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.32:400][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.32:400][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.32:400][125]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.32:406][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.32:406][125]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.32:406][125]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.32:437][125]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.32:437][125]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.32:437][125]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.32:437][125]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.34:273][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.34:273][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.34:273][165]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.34:279][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.34:279][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.34:279][165]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.34:285][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.34:285][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.34:286][165]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.34:292][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.34:292][165]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.34:292][165]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.34:321][165]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.34:321][165]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.34:321][165]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.34:321][165]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.35:739][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.35:739][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.35:739][195]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.35:744][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.35:744][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.35:744][195]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.35:750][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.35:750][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.35:750][195]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.35:756][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.35:756][195]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.35:756][195]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.35:785][195]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.35:785][195]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.35:785][195]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.35:785][195]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (1: /Game/Meshes/ring2.ring2:BodySetup_25)
+[2015.02.22-14.36.55:361][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.55:361][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.55:361][359]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.55:366][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.55:366][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.55:366][359]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:0). The remaining elements will not get cooked.
+[2015.02.22-14.36.55:372][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.55:372][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.55:372][359]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.36.55:378][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1486) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.02.22-14.36.55:378][359]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.02.22-14.36.55:378][359]LogPhysics:Warning: Failed to cook convex: /Game/Meshes/ring2.ring2 1 (FlipX:1). The remaining elements will not get cooked.
+[2015.02.22-14.38.39:330][324]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2_ucx.fbx)
+[2015.02.22-14.38.39:332][324]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.02.22-14.38.39:332][324]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.02.22-14.38.39:332][324]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.02.22-14.38.39:332][324]LogFbx: ItemName: Model, ItemCount : 3
+[2015.02.22-14.38.39:332][324]LogFbx: ItemName: Material, ItemCount : 1
+[2015.02.22-14.38.51:568][324]LogFbx: Loading FBX Scene from ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2_ucx.fbx
+[2015.02.22-14.38.51:582][324]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.22-14.38.51:588][324]FBXImport:Error: Error Import failed. 
+[2015.02.22-14.38.56:202][324]LogAssetTools:Warning: Failed to import '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2_ucx.fbx'. Failed to create asset '/Game/Meshes/ring2_ucx'
+[2015.02.22-14.39.06:852][408]LogSavePackage: Save=42.308125ms
+[2015.02.22-14.39.06:853][408]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_Map_Auto30D7DCDD74E5FFFBBB51F5C9C5A44B7B9.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
+[2015.02.22-14.39.06:860][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.124
+[2015.02.22-14.39.06:860][408]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2015.02.22-14.39.06:873][408]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/ring2] ([1] browsable assets)...
+[2015.02.22-14.39.06:903][408]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/ring2.ring2]
+[2015.02.22-14.39.06:903][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/ring2]
+[2015.02.22-14.39.06:904][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ring2" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Meshes/ring2_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.02.22-14.39.07:360][408]LogSavePackage: Save=445.375610ms
+[2015.02.22-14.39.07:360][408]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/ring2_Auto3E0E599514BCDD64D04F9C28CEF584E7C.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Autosaves/Game/Meshes/ring2_Auto3.uasset'
+[2015.02.22-14.39.07:363][408]LogFileHelpers: Auto-saving content packages took 0.503
+[2015.02.22-14.42.40:430][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.22-14.42.40:499][ 39]LogSavePackage: Save=40.110729ms
+[2015.02.22-14.42.40:500][ 39]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_Map180598C14CD45CF7D5157B9C91726D5C.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap'
+[2015.02.22-14.42.40:541][ 39]LogFileHelpers: Saving map 'Example_Map' took 0.242
+[2015.02.22-14.42.40:587][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Material_001" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/Material_001.uasset" SILENT=true
+[2015.02.22-14.42.41:126][ 39]LogSavePackage: Save=537.577942ms
+[2015.02.22-14.42.41:126][ 39]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Material_001E6DFAB7E46363289329258B1AEA1F2B9.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/Material_001.uasset'
+[2015.02.22-14.42.41:134][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ring2" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.uasset" SILENT=true
+[2015.02.22-14.42.41:147][ 39]LogSavePackage: Save=5.610727ms
+[2015.02.22-14.42.41:147][ 39]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/ring24EF69D8C4C979F560ED00E92B912FF39.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Meshes/ring2.uasset'
+[2015.02.22-14.42.41:789][ 40]Cmd: QUIT_EDITOR
+[2015.02.22-14.42.42:305][ 40]LogExit: Preparing to exit.
+[2015.02.22-14.42.43:404][ 40]LogExit: Editor shut down
+[2015.02.22-14.42.43:404][ 40]LogExit: Transaction tracking system shut down
+[2015.02.22-14.42.43:405][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005839031940
+[2015.02.22-14.42.43:406][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000583509E7A0
+[2015.02.22-14.42.43:406][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005840E0B060
+[2015.02.22-14.42.43:406][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005840E0AC00
+[2015.02.22-14.42.43:408][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000583E3E71A0
+[2015.02.22-14.42.43:408][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005845C0DB20
+[2015.02.22-14.42.43:465][ 40]LogExit: Object subsystem successfully closed.
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (173)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.22-14.42.43:530][ 40]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.22-14.42.43:531][ 40]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.22-14.42.43:532][ 40]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.22-14.42.43:615][ 40]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.22-14.42.43:616][ 40]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.22-14.42.43:674][ 40]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.22-14.42.43:675][ 40]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.22-14.42.43:675][ 40]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.22-14.42.43:675][ 40]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.22-14.42.43:676][ 40]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.22-14.42.43:777][ 40]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.22-14.42.43:777][ 40]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.22-14.42.43:777][ 40]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.22-14.42.43:779][ 40]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.22-14.42.43:780][ 40]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.22-14.42.43:785][ 40]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.22-14.42.43:866][ 40]LogDerivedDataCache: Shutdown
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.22-14.42.43:866][ 40]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.22-14.42.43:867][ 40]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.22-14.42.43:868][ 40]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.22-14.42.43:869][ 40]LogExit: Exiting.
+[2015.02.22-14.42.43:891][ 40]Log file closed, 02/22/15 15:42:43
