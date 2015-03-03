@@ -1,0 +1,217 @@
+﻿Log file open, 02/27/15 00:03:23
+LogInit:Display: Running engine for game: Blindness
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.26-23.03.23:509][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.26-23.03.23:564][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.26-23.03.23:587][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.26-23.03.23:600][  0]LogInit: Object subsystem initialized
+[2015.02.26-23.03.23:602][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.26-23.03.23:602][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.26-23.03.23:602][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.26-23.03.23:602][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.26-23.03.23:603][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.26-23.03.23:603][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.26-23.03.23:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.26-23.03.23:611][  0]LogInit: Computer: LETO
+[2015.02.26-23.03.23:611][  0]LogInit: User: Edi
+[2015.02.26-23.03.23:611][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.26-23.03.23:611][  0]LogInit: High frequency timer resolution =2.571676 MHz
+[2015.02.26-23.03.23:611][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=131072.0GB
+[2015.02.26-23.03.23:612][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.26-23.03.23:612][  0]LogMemory: Process Physical Memory: 48.95 MB used, 48.95 MB peak
+[2015.02.26-23.03.23:612][  0]LogMemory: Process Virtual Memory: 24.17 MB used, 24.17 MB peak
+[2015.02.26-23.03.23:612][  0]LogMemory: Physical Memory: 3711.24 MB used, 12279.11 MB total
+[2015.02.26-23.03.23:612][  0]LogMemory: Virtual Memory: 273.70 MB used, 134217728.00 MB total
+[2015.02.26-23.03.23:626][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 5800 Series (Feature Level 11_0)
+[2015.02.26-23.03.23:626][  0]LogD3D11RHI: Adapter has 1010MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.02.26-23.03.23:627][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.26-23.03.23:627][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.26-23.03.23:627][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.26-23.03.23:632][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2015.02.26-23.03.23:638][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.02.26-23.03.23:693][  0]LogTextLocalizationManager: The requested culture ('hr_HR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.26-23.03.23:932][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.26-23.03.32:108][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.26-23.03.32:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.26-23.03.32:768][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.26-23.03.32:819][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.26-23.03.32:819][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.26-23.03.32:819][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.26-23.03.32:819][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.26-23.03.32:916][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.26-23.03.32:928][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Edi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.26-23.03.33:102][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.26-23.03.33:303][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.26-23.03.33:303][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.26-23.03.33:763][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.26-23.03.33:836][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.26-23.03.34:862][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.26-23.03.35:051][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Edi/Documents/Unreal Projects/Blindness-dev/Binaries/Win64. Error: 0
+[2015.02.26-23.03.35:243][  0]SourceControl: Info Source control is disabled
+[2015.02.26-23.03.35:243][  0]SourceControl: Info Source control is disabled
+[2015.02.26-23.03.35:252][  0]SourceControl: Info Source control is disabled
+[2015.02.26-23.03.35:401][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.26-23.03.35:401][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.26-23.03.35:475][  0]LogEngine: Initializing Engine...
+[2015.02.26-23.03.35:672][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.26-23.03.35:681][  0]LogInit: FAudioDevice initialized.
+[2015.02.26-23.03.35:706][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.26-23.03.35:729][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Edi/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.26-23.03.35:738][  0]LogInit: Texture streaming: Enabled
+[2015.02.26-23.03.35:772][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.26-23.03.35:772][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.26-23.03.35:773][  0]LogAnalytics: SetUserId 88699552893175d1deffbf43a256080f
+[2015.02.26-23.03.35:773][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.26-23.03.35:795][  0]LogInit: Transaction tracking system initialized
+[2015.02.26-23.03.35:909][  0]BlueprintLog: New page: Editor Load
+[2015.02.26-23.03.35:944][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.02.26-23.03.35:944][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.26-23.03.36:567][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.26-23.03.37:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.26-23.03.37:263][  0]LogConsoleResponse:Display: 
+[2015.02.26-23.03.37:325][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.26-23.03.37:567][  0]SourceControl: Info Source control is disabled
+[2015.02.26-23.03.43:014][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.26-23.03.43:016][  0]LightingResults: New page: Lighting Build
+[2015.02.26-23.03.43:029][  0]MapCheck: New page: Map Check
+[2015.02.26-23.03.43:029][  0]LightingResults: New page: Lighting Build
+[2015.02.26-23.03.43:041][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E77A33E20
+[2015.02.26-23.03.43:292][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.26-23.03.43:292][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.26-23.03.43:293][  0]Cmd: MAP CHECKDEP
+[2015.02.26-23.03.43:293][  0]MapCheck: New page: Example_Map - Feb 27, 2015, 1:03:43 AM
+[2015.02.26-23.03.43:409][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.043ms to complete.
+[2015.02.26-23.03.43:409][  0]LogFileHelpers: Loading map 'Example_Map' took 0.395
+[2015.02.26-23.03.43:462][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_19d4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_12e0_0///////STATCAT_Advanced////
+[2015.02.26-23.03.43:462][  0]LogCollectionManager: Loaded 0 collections in 0.001381 seconds
+[2015.02.26-23.03.43:598][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.26-23.03.43:604][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.26-23.03.43:633][  0]LogLoad: Full Startup: 22.45 seconds (BP compile: 0.06 seconds)
+[2015.02.26-23.03.43:647][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.26-23.03.43:849][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1264.
+[2015.02.26-23.03.44:393][  3]LogAssetRegistry: Asset discovery search completed in 8.4594 seconds
+[2015.02.26-23.03.46:466][ 80]LogLinker:Warning: Asset '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.26-23.03.46:701][ 80]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.02.26-23.03.47:811][ 80]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.03.47:815][ 80]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.03.47:894][ 80]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.03.47:895][ 80]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.15:331][250]BlueprintLog: New page: Compile SoundSpotlight
+[2015.02.26-23.04.15:465][250]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.15:466][250]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.15:498][250]BlueprintEditorCompileResults: Info [0054.31] Compile of SoundSpotlight successful! [in 161 ms]
+[2015.02.26-23.04.16:760][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SoundSpotlight" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset" SILENT=true
+[2015.02.26-23.04.16:786][296]LogSavePackage: Save=12.958475ms
+[2015.02.26-23.04.16:786][296]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/SoundSpotlightFDB11D564D8C0A31224780880ADD9F66.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset'
+[2015.02.26-23.04.22:269][484]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.26-23.04.22:313][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:314][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:347][484]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.26-23.04.22:426][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:428][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:528][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:529][484]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.04.22:567][484]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.26-23.04.22:636][484]LogPlayLevel: PIE:  Blueprint regeneration took 366 ms (2 blueprints)
+[2015.02.26-23.04.22:636][484]PIE: New page: PIE session: Example_Map (Feb 27, 2015, 1:04:22 AM)
+[2015.02.26-23.04.22:643][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006088s)
+[2015.02.26-23.04.22:643][484]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2015.02.26-23.04.22:644][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.007003s)
+[2015.02.26-23.04.22:776][484]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2015.02.26-23.04.22:778][484]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.02.26-23.04.22:790][484]LogWorld: Game class is 'MyGame_C'
+[2015.02.26-23.04.22:792][484]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.26-23.04.22:796][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.27-00.04.22
+[2015.02.26-23.04.22:798][484]LogWorld: Bringing up level for play took: 0.005129
+[2015.02.26-23.04.22:800][484]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.484
+[2015.02.26-23.04.31:216][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E044E6700
+[2015.02.26-23.05.03:766][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SoundSpotlight" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset" SILENT=true
+[2015.02.26-23.05.03:791][410]LogSavePackage: Save=13.379601ms
+[2015.02.26-23.05.03:791][410]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/SoundSpotlightC37361154C668362CC661CB0417BDAE5.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset'
+[2015.02.26-23.05.38:302][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SoundSpotlight" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset" SILENT=true
+[2015.02.26-23.05.38:326][372]LogSavePackage: Save=13.217062ms
+[2015.02.26-23.05.38:326][372]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/SoundSpotlightE35A66F34FC256E0102447AA4859CA48.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset'
+[2015.02.26-23.05.38:931][389]BlueprintLog: New page: Compile SoundSpotlight
+[2015.02.26-23.05.39:094][389]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.39:095][389]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.39:129][389]BlueprintEditorCompileResults: Info [0137.94] Compile of SoundSpotlight successful! [in 193 ms]
+[2015.02.26-23.05.42:055][464]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.26-23.05.42:088][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:089][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:121][464]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.26-23.05.42:195][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:196][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:299][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:300][464]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.05.42:358][464]LogPlayLevel: PIE:  Blueprint regeneration took 302 ms (1 blueprints)
+[2015.02.26-23.05.42:358][464]PIE: New page: PIE session: Example_Map (Feb 27, 2015, 1:05:42 AM)
+[2015.02.26-23.05.42:365][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006196s)
+[2015.02.26-23.05.42:365][464]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2015.02.26-23.05.42:366][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.007193s)
+[2015.02.26-23.05.42:396][464]LogWorld: Game class is 'MyGame_C'
+[2015.02.26-23.05.42:398][464]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.26-23.05.42:402][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.27-00.05.42
+[2015.02.26-23.05.42:403][464]LogWorld: Bringing up level for play took: 0.004907
+[2015.02.26-23.05.42:406][464]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.089
+[2015.02.26-23.06.05:399][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E0D5A1800
+[2015.02.26-23.06.43:349][ 78]BlueprintLog: New page: Compile SoundSpotlight
+[2015.02.26-23.06.43:466][ 78]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.06.43:468][ 78]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.06.43:500][ 78]BlueprintEditorCompileResults: Info [0202.32] Compile of SoundSpotlight successful! [in 145 ms]
+[2015.02.26-23.06.48:049][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.26-23.06.48:127][258]LogSavePackage: Save=42.767441ms
+[2015.02.26-23.06.48:127][258]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/Example_Map9CE4EFA64C3722D2DDCD8A99A63F1A77.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Maps/Example_Map.umap'
+[2015.02.26-23.06.48:177][258]LogFileHelpers: Saving map 'Example_Map' took 0.261
+[2015.02.26-23.06.48:180][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SoundSpotlight" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset" SILENT=true
+[2015.02.26-23.06.48:203][258]LogSavePackage: Save=13.205396ms
+[2015.02.26-23.06.48:203][258]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/SoundSpotlightB7F66D8941AB72F2DEDBC79C0AECAD7E.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/SoundSpotlight.uasset'
+[2015.02.26-23.09.01:370][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.26-23.09.01:790][835]LogSavePackage: Save=403.912476ms
+[2015.02.26-23.09.01:790][835]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/MyCharacter93AF41BB49367478A39123BF7D53C0E8.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/MyCharacter.uasset'
+[2015.02.26-23.09.02:603][870]BlueprintLog: New page: Compile MyCharacter
+[2015.02.26-23.09.02:681][870]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.02:682][870]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.02:752][870]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.26-23.09.02:818][870]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.02:819][870]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.02:853][870]BlueprintEditorCompileResults: Info [0341.67] Compile of MyCharacter successful! [in 225 ms]
+[2015.02.26-23.09.04:774][951]BlueprintLog: New page: Compile SoundSpotlight
+[2015.02.26-23.09.04:903][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.04:904][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.04:938][951]BlueprintEditorCompileResults: Info [0343.75] Compile of SoundSpotlight successful! [in 159 ms]
+[2015.02.26-23.09.06:863][ 26]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.26-23.09.06:895][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.06:896][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.06:929][ 26]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.26-23.09.07:007][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.07:009][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.07:110][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.07:112][ 26]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.09.07:169][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 306 ms (1 blueprints)
+[2015.02.26-23.09.07:169][ 26]PIE: New page: PIE session: Example_Map (Feb 27, 2015, 1:09:07 AM)
+[2015.02.26-23.09.07:175][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006092s)
+[2015.02.26-23.09.07:176][ 26]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2015.02.26-23.09.07:176][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.007050s)
+[2015.02.26-23.09.07:212][ 26]LogWorld: Game class is 'MyGame_C'
+[2015.02.26-23.09.07:214][ 26]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.26-23.09.07:218][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.27-00.09.07
+[2015.02.26-23.09.07:219][ 26]LogWorld: Bringing up level for play took: 0.004886
+[2015.02.26-23.09.07:221][ 26]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.095
+[2015.02.26-23.09.20:147][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E0E3A2E80
+[2015.02.26-23.10.35:041][335]BlueprintLog: New page: Compile MyCharacter
+[2015.02.26-23.10.35:122][335]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.10.35:123][335]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.10.35:266][335]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.10.35:267][335]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.26-23.10.35:300][335]BlueprintEditorCompileResults: Info [0434.11] Compile of MyCharacter successful! [in 232 ms]
+[2015.02.26-23.10.35:927][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.26-23.10.36:346][353]LogSavePackage: Save=407.522552ms
+[2015.02.26-23.10.36:346][353]LogSavePackage: Moving '../../../../../../Users/Edi/Documents/Unreal Projects/Blindness-dev/Saved/MyCharacter1A2B10E44C493265F08A699FE980F421.tmp' to '../../../../../../Users/Edi/Documents/Unreal Projects/B
